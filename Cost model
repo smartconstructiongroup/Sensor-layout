@@ -1,0 +1,45 @@
+
+int NK = ...; 
+int NL = ...;  
+int NP = ...;  
+int NT = ...;  
+
+range K = 1..NK;
+range L = 1..NL;
+range P = 1..NP;
+range T = 1..NT;
+
+
+int landa [k in K][l in L][p in P][t in T] = ...;          
+int C[k in K] = ...;
+float Cover_bar = ...; 
+int W [p in P][t in T] = ...;     
+int SUM_W = ...;     
+
+dvar boolean x [k in K][l in L];
+dvar int+ Cover [p in P][t in T];
+dvar boolean y[k in K][l in L][p in P][t in T];
+
+
+minimize sum (k in K, l in L) C[k] * x [k][l];
+
+subject to{
+
+
+forall(k in K, l in L, p in P, t in T)
+  y[k][l][p][t] <= x[k][l]*landa[k][l][p][t];
+
+forall (p in P, t in T)
+  sum(k in K, l in L) y[k][l][p][t] <= 1;
+  
+forall (l in L)  
+sum (k in K) x[k][l] <=1;
+
+forall (p in P, t in T)
+  Cover[p][t] == sum(k in K, l in L) (y[k][l][p][t]*landa[k][l][p][t]);
+
+
+  (1/SUM_W)*(sum(p in P, t in T) W[p][t]*Cover[p][t]) >= Cover_bar;
+
+
+}
