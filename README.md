@@ -118,36 +118,30 @@ This repository includes a case study demonstrating the proposed **sensor placem
 * **Leader-Follower Approach:** Two strategies implemented:
 
   1. **Minimum Coverage Assurance Strategy:** Input coverage = 60%.
+  <img width="940" height="1107" alt="image" src="https://github.com/user-attachments/assets/1bd28e14-7884-4431-8435-cff5096433bc" />
+
+**Fig. 3. Selected locations for sensor installation in the Minimum Coverage Assurance Strategy**
 
      * Minimum cost = \$2,550 (Cost Optimization Model).
      * Coverage can be increased to 61.3% at a reduced cost of \$2,250 (Coverage Optimization Model).
-     * 11 sensors installed at selected locations (Table 4).
+     * 11 sensors installed at selected locations.
   2. **Budget Constraint Strategy:** Input budget = \$4,000.
+<img width="940" height="1105" alt="image" src="https://github.com/user-attachments/assets/2cf4f6e2-1a1e-4ecf-bbf6-09555eccc037" />
+
+**Fig. 4. Selected locations for sensor installation in the Budget Constraint Strategy**
 
      * Maximum achievable coverage = 72.5% (Coverage Optimization Model).
-     * 16 sensors installed at selected locations (Table 5).
+     * 16 sensors installed at selected locations.
 
 ### Coverage–Cost Analysis
 
 * Running the Cost Optimization Model 100 times produced a **coverage-cost curve** (Fig. 5).
+<img width="1004" height="493" alt="image" src="https://github.com/user-attachments/assets/e6e3d612-a62b-40f9-896e-eedacf322779" />
+**Fig. 5. Coverage–cost graph for case study**
 * Insights:
 
   * Initial coverage improvements are highly cost-effective (up to \~40%).
   * Coverage beyond 80% requires sharply increasing costs, indicating diminishing returns.
   * Example: \$5,000 budget → 77% coverage; \$3,500 → 70% coverage.
 
-### Sensitivity Analysis
-
-* Explored the effect of:
-
-  1. Deploying multifunctional sensors
-  2. Selection of sensor types
-  3. Prioritization of certain areas
-* This analysis highlights the model’s **robustness and flexibility**, helping users understand trade-offs between cost, coverage, and sensor configuration.
-
----
-
-این نسخه برای **README یا توضیحات GitHub** کاملاً مناسب است، کوتاه، مرتب، و شامل تمام اطلاعات عملیاتی برای کاربر.
-
-اگر بخواهید، می‌توانم **نسخه‌ای هم با فرمت “How to Reproduce the Case Study”** آماده کنم که شامل مسیر فایل‌ها، پارامترهای ورودی و مثال اجرای هر دو استراتژی باشد تا کاربران بتوانند فوراً نتایج را بازتولید کنند. آیا آن را هم آماده کنم؟
 
