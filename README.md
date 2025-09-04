@@ -118,7 +118,8 @@ This repository includes a case study demonstrating the proposed **sensor placem
 * **Leader-Follower Approach:** Two strategies implemented:
 
   1. **Minimum Coverage Assurance Strategy:** Input coverage = 60%.
-  <img width="940" height="1107" alt="image" src="https://github.com/user-attachments/assets/1bd28e14-7884-4431-8435-cff5096433bc" />
+
+   <img width="940" height="1107" alt="image" src="https://github.com/user-attachments/assets/1bd28e14-7884-4431-8435-cff5096433bc" />
 
 **Fig. 3. Selected locations for sensor installation in the Minimum Coverage Assurance Strategy**
 
@@ -126,6 +127,7 @@ This repository includes a case study demonstrating the proposed **sensor placem
      * Coverage can be increased to 61.3% at a reduced cost of \$2,250 (Coverage Optimization Model).
      * 11 sensors installed at selected locations.
   2. **Budget Constraint Strategy:** Input budget = \$4,000.
+
 <img width="940" height="1105" alt="image" src="https://github.com/user-attachments/assets/2cf4f6e2-1a1e-4ecf-bbf6-09555eccc037" />
 
 **Fig. 4. Selected locations for sensor installation in the Budget Constraint Strategy**
@@ -137,7 +139,9 @@ This repository includes a case study demonstrating the proposed **sensor placem
 
 * Running the Cost Optimization Model 100 times produced a **coverage-cost curve** (Fig. 5).
 <img width="1004" height="493" alt="image" src="https://github.com/user-attachments/assets/e6e3d612-a62b-40f9-896e-eedacf322779" />
+
 **Fig. 5. Coverage–cost graph for case study**
+
 * Insights:
 
   * Initial coverage improvements are highly cost-effective (up to \~40%).
