@@ -51,7 +51,7 @@ Based on this input data, the significance of each block, the importance of each
 This repository includes a case study demonstrating the proposed **sensor placement optimization models**. The study was conducted on a single floor of a university campus in Sydney, Australia, including classrooms, computer labs, and lecture theaters.
  <img width="964" height="1070" alt="image" src="https://github.com/user-attachments/assets/00a1daa2-e699-47b1-9230-1e984ae880e2" />
 
-Fig. 2. Floor Layout of the Case Study Area.
+**Fig. 2. Floor Layout of the Case Study Area.**
 
 
 ### Case Study Setup
@@ -93,6 +93,20 @@ Fig. 2. Floor Layout of the Case Study Area.
 | 26       | 2          | 0       | 3           | 54      | 5          | 3       | 2           |
 | 27       | 2          | 0       | 3           | 55      | 2          | 0       | 2           |
 | 28       | 2          | 0       | 3           | -       | -          | -       | -           |
+
+
+**Table 3. Details of candidate sensors for installation**
+| Sensor | Type                    | Temperature | Humidity | Velocity | Cost ($) |
+|--------|------------------------|------------|---------|---------|----------|
+| 1      | Simple non-contact      | 98%        | -       | -       | 400      |
+| 2      | Simple non-contact      | 97%        | -       | -       | 300      |
+| 3      | Simple contact          | 98%        | -       | -       | 200      |
+| 4      | Simple contact          | 97%        | -       | -       | 150      |
+| 5      | Simple contact          | -          | 97%     | -       | 300      |
+| 6      | Simple contact          | -          | -       | 95%     | 400      |
+| 7      | Multifunctional contact | 98%        | 97%     | -       | 450      |
+| 8      | Multifunctional contact | 98%        | -       | 95%     | 550      |
+| 9      | Multifunctional contact | 98%        | 97%     | 95%     | 800      |
 
 
 ر
