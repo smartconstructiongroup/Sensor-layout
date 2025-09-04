@@ -49,7 +49,7 @@ Based on this input data, the significance of each block, the importance of each
 # Case Study and Results Summary
 
 This repository includes a case study demonstrating the proposed **sensor placement optimization models**. The study was conducted on a single floor of a university campus in Sydney, Australia, including classrooms, computer labs, and lecture theaters.
- ![Uploading image.png…]()
+ <img width="964" height="1070" alt="image" src="https://github.com/user-attachments/assets/00a1daa2-e699-47b1-9230-1e984ae880e2" />
 Fig. 2. Floor Layout of the Case Study Area.
 
 
