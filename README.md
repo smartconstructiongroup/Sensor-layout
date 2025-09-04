@@ -60,35 +60,40 @@ Fig. 2. Floor Layout of the Case Study Area.
 * **Blocks:** 55 environment blocks with similar temperature, humidity, and air velocity conditions (blue areas in Fig. 2).
 * **Sensor Types:** Nine types of sensors (simple and multifunctional, contact and non-contact) measuring temperature, humidity, and air velocity. Sensor details, including accuracy and cost, are provided in Table 3.
 * **Importance of Coverage:** Each block has a priority value (1–20) based on occupancy, usage, and energy contribution.
-Location	Temperature	Humidity	air velocity	Location	Temperature	Humidity	air velocity
-1	4	1	3	29	14	8	2
-2	3	1	3	30	7	4	1
-3	3	1	3	31	10	2	2
-4	3	1	3	32	8	3	3
-5	5	1	3	33	8	2	10
-6	6	1	3	34	4	1	0
-7	6	1	3	35	2	0	2
-8	20	10	4	36	2	1	3
-9	20	10	4	37	2	0	2
-10	20	10	4	38	4	1	3
-11	20	10	4	39	4	1	3
-12	20	10	4	40	4	2	1
-13	20	10	4	41	6	4	2
-14	8	5	2	42	5	3	2
-15	16	10	4	43	6	5	2
-16	16	10	4	44	6	5	2
-17	16	10	4	45	4	2	1
-18	16	10	4	46	18	10	4
-19	18	10	4	47	18	10	4
-20	4	2	1	48	8	5	2
-21	2	1	0	49	6	4	2
-22	2	1	0	50	6	4	2
-23	17	9	4	51	4	2	1
-24	4	2	1	52	4	2	1
-25	10	5	2	53	6	4	2
-26	2	0	3	54	5	3	2
-27	2	0	3	55	2	0	2
-28	2	0	3	-	-	-	-
+
+| Location | Temperature | Humidity | Air Velocity | Location | Temperature | Humidity | Air Velocity |
+|----------|------------|---------|-------------|---------|------------|---------|-------------|
+| 1        | 4          | 1       | 3           | 29      | 14         | 8       | 2           |
+| 2        | 3          | 1       | 3           | 30      | 7          | 4       | 1           |
+| 3        | 3          | 1       | 3           | 31      | 10         | 2       | 2           |
+| 4        | 3          | 1       | 3           | 32      | 8          | 3       | 3           |
+| 5        | 5          | 1       | 3           | 33      | 8          | 2       | 10          |
+| 6        | 6          | 1       | 3           | 34      | 4          | 1       | 0           |
+| 7        | 6          | 1       | 3           | 35      | 2          | 0       | 2           |
+| 8        | 20         | 10      | 4           | 36      | 2          | 1       | 3           |
+| 9        | 20         | 10      | 4           | 37      | 2          | 0       | 2           |
+| 10       | 20         | 10      | 4           | 38      | 4          | 1       | 3           |
+| 11       | 20         | 10      | 4           | 39      | 4          | 1       | 3           |
+| 12       | 20         | 10      | 4           | 40      | 4          | 2       | 1           |
+| 13       | 20         | 10      | 4           | 41      | 6          | 4       | 2           |
+| 14       | 8          | 5       | 2           | 42      | 5          | 3       | 2           |
+| 15       | 16         | 10      | 4           | 43      | 6          | 5       | 2           |
+| 16       | 16         | 10      | 4           | 44      | 6          | 5       | 2           |
+| 17       | 16         | 10      | 4           | 45      | 4          | 2       | 1           |
+| 18       | 16         | 10      | 4           | 46      | 18         | 10      | 4           |
+| 19       | 18         | 10      | 4           | 47      | 18         | 10      | 4           |
+| 20       | 4          | 2       | 1           | 48      | 8          | 5       | 2           |
+| 21       | 2          | 1       | 0           | 49      | 6          | 4       | 2           |
+| 22       | 2          | 1       | 0           | 50      | 6          | 4       | 2           |
+| 23       | 17         | 9       | 4           | 51      | 4          | 2       | 1           |
+| 24       | 4          | 2       | 1           | 52      | 4          | 2       | 1           |
+| 25       | 10         | 5       | 2           | 53      | 6          | 4       | 2           |
+| 26       | 2          | 0       | 3           | 54      | 5          | 3       | 2           |
+| 27       | 2          | 0       | 3           | 55      | 2          | 0       | 2           |
+| 28       | 2          | 0       | 3           | -       | -          | -       | -           |
+
+
+ر
 
 ### Implementation
 
