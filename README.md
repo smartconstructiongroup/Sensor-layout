@@ -60,7 +60,8 @@ Fig. 2. Floor Layout of the Case Study Area.
 * **Blocks:** 55 environment blocks with similar temperature, humidity, and air velocity conditions (blue areas in Fig. 2).
 * **Sensor Types:** Nine types of sensors (simple and multifunctional, contact and non-contact) measuring temperature, humidity, and air velocity. Sensor details, including accuracy and cost, are provided in Table 3.
 * **Importance of Coverage:** Each block has a priority value (1–20) based on occupancy, usage, and energy contribution.
-  Table 2. The importance of covering the blocks in Fig. 2
+
+  **Table 2. The importance of covering the blocks in Fig. 2**
 
 | Location | Temperature | Humidity | Air Velocity | Location | Temperature | Humidity | Air Velocity |
 |----------|------------|---------|-------------|---------|------------|---------|-------------|
